@@ -100,7 +100,7 @@ public class BlackJackGame {
             hand.setCards(dealerIndex, card.getSuit(), card.getValue());
             System.out.println(card);
             System.out.println("Score of Dealer's Hand: " + hand.Score(dealerCounter));
-            
+
             System.out.println();
             dealerIndex++;
         }
