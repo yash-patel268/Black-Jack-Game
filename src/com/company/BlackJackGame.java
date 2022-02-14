@@ -82,7 +82,7 @@ public class BlackJackGame {
         return cards[cardLeft];
     }
 
-    public void assign(BlackJackGame deck, BlackJackGame hand, String type){
+    public String assign(BlackJackGame deck, BlackJackGame hand, String type){
         if(type=="hand"){
             playerCounter++;
             Card card = deck.deal();
@@ -104,6 +104,7 @@ public class BlackJackGame {
             System.out.println();
             dealerIndex++;
         }
+        return type;
     }
 
     public void checkBlackJack(int x){
