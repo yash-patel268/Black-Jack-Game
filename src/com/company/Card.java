@@ -4,6 +4,10 @@ public class Card {
     private String suit;
     private String value;
 
+    public Card() {
+
+    }
+
     public String getSuit(){
         return suit;
     }
